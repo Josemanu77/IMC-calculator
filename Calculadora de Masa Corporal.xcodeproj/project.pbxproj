@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F17DA5DB29E1EF4F001AEFD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17DA5DA29E1EF4F001AEFD3 /* AppDelegate.swift */; };
+		F17DA5DD29E1EF4F001AEFD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17DA5DC29E1EF4F001AEFD3 /* SceneDelegate.swift */; };
+		F17DA5DF29E1EF4F001AEFD3 /* calculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17DA5DE29E1EF4F001AEFD3 /* calculateViewController.swift */; };
+		F17DA5E229E1EF4F001AEFD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17DA5E029E1EF4F001AEFD3 /* Main.storyboard */; };
+		F17DA5E429E1EF51001AEFD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17DA5E329E1EF51001AEFD3 /* Assets.xcassets */; };
+		F17DA5E729E1EF51001AEFD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17DA5E529E1EF51001AEFD3 /* LaunchScreen.storyboard */; };
+		F1EAFE2529E2747500B55089 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAFE2429E2747500B55089 /* resultViewController.swift */; };
+		F1EAFE2729E276C800B55089 /* calculatedBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAFE2629E276C800B55089 /* calculatedBrain.swift */; };
+		F1EAFE2929E2771000B55089 /* bmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EAFE2829E2771000B55089 /* bmi.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F17DA5D729E1EF4F001AEFD3 /* Calculadora de Masa Corporal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculadora de Masa Corporal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17DA5DA29E1EF4F001AEFD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F17DA5DC29E1EF4F001AEFD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F17DA5DE29E1EF4F001AEFD3 /* calculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculateViewController.swift; sourceTree = "<group>"; };
+		F17DA5E129E1EF4F001AEFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F17DA5E329E1EF51001AEFD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F17DA5E629E1EF51001AEFD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F17DA5E829E1EF51001AEFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1EAFE2429E2747500B55089 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
+		F1EAFE2629E276C800B55089 /* calculatedBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatedBrain.swift; sourceTree = "<group>"; };
+		F1EAFE2829E2771000B55089 /* bmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bmi.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F17DA5D429E1EF4F001AEFD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F17DA5CE29E1EF4F001AEFD3 = {
+			isa = PBXGroup;
+			children = (
+				F17DA5D929E1EF4F001AEFD3 /* Calculadora de Masa Corporal */,
+				F17DA5D829E1EF4F001AEFD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F17DA5D829E1EF4F001AEFD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F17DA5D729E1EF4F001AEFD3 /* Calculadora de Masa Corporal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F17DA5D929E1EF4F001AEFD3 /* Calculadora de Masa Corporal */ = {
+			isa = PBXGroup;
+			children = (
+				F17DA5DA29E1EF4F001AEFD3 /* AppDelegate.swift */,
+				F17DA5DC29E1EF4F001AEFD3 /* SceneDelegate.swift */,
+				F1EAFE1F29E1F3A400B55089 /* Modelos */,
+				F1EAFE1D29E1F34700B55089 /* Controladores */,
+				F1EAFE1E29E1F37300B55089 /* Vistas */,
+				F17DA5E329E1EF51001AEFD3 /* Assets.xcassets */,
+				F17DA5E529E1EF51001AEFD3 /* LaunchScreen.storyboard */,
+				F17DA5E829E1EF51001AEFD3 /* Info.plist */,
+			);
+			path = "Calculadora de Masa Corporal";
+			sourceTree = "<group>";
+		};
+		F1EAFE1D29E1F34700B55089 /* Controladores */ = {
+			isa = PBXGroup;
+			children = (
+				F17DA5DE29E1EF4F001AEFD3 /* calculateViewController.swift */,
+				F1EAFE2429E2747500B55089 /* resultViewController.swift */,
+			);
+			path = Controladores;
+			sourceTree = "<group>";
+		};
+		F1EAFE1E29E1F37300B55089 /* Vistas */ = {
+			isa = PBXGroup;
+			children = (
+				F17DA5E029E1EF4F001AEFD3 /* Main.storyboard */,
+			);
+			path = Vistas;
+			sourceTree = "<group>";
+		};
+		F1EAFE1F29E1F3A400B55089 /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				F1EAFE2629E276C800B55089 /* calculatedBrain.swift */,
+				F1EAFE2829E2771000B55089 /* bmi.swift */,
+			);
+			path = Modelos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F17DA5D629E1EF4F001AEFD3 /* Calculadora de Masa Corporal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17DA60129E1EF51001AEFD3 /* Build configuration list for PBXNativeTarget "Calculadora de Masa Corporal" */;
+			buildPhases = (
+				F17DA5D329E1EF4F001AEFD3 /* Sources */,
+				F17DA5D429E1EF4F001AEFD3 /* Frameworks */,
+				F17DA5D529E1EF4F001AEFD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculadora de Masa Corporal";
+			productName = "Calculadora de Masa Corporal";
+			productReference = F17DA5D729E1EF4F001AEFD3 /* Calculadora de Masa Corporal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F17DA5CF29E1EF4F001AEFD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F17DA5D629E1EF4F001AEFD3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F17DA5D229E1EF4F001AEFD3 /* Build configuration list for PBXProject "Calculadora de Masa Corporal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F17DA5CE29E1EF4F001AEFD3;
+			productRefGroup = F17DA5D829E1EF4F001AEFD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F17DA5D629E1EF4F001AEFD3 /* Calculadora de Masa Corporal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F17DA5D529E1EF4F001AEFD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17DA5E729E1EF51001AEFD3 /* LaunchScreen.storyboard in Resources */,
+				F17DA5E429E1EF51001AEFD3 /* Assets.xcassets in Resources */,
+				F17DA5E229E1EF4F001AEFD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F17DA5D329E1EF4F001AEFD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17DA5DF29E1EF4F001AEFD3 /* calculateViewController.swift in Sources */,
+				F17DA5DB29E1EF4F001AEFD3 /* AppDelegate.swift in Sources */,
+				F1EAFE2929E2771000B55089 /* bmi.swift in Sources */,
+				F17DA5DD29E1EF4F001AEFD3 /* SceneDelegate.swift in Sources */,
+				F1EAFE2529E2747500B55089 /* resultViewController.swift in Sources */,
+				F1EAFE2729E276C800B55089 /* calculatedBrain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F17DA5E029E1EF4F001AEFD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F17DA5E129E1EF4F001AEFD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F17DA5E529E1EF51001AEFD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F17DA5E629E1EF51001AEFD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F17DA5FF29E1EF51001AEFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F17DA60029E1EF51001AEFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F17DA60229E1EF51001AEFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVH232Z435;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calculadora de Masa Corporal/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "IMC Calculator";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pinedajo.Calculadora-de-Masa-Corporal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F17DA60329E1EF51001AEFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVH232Z435;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calculadora de Masa Corporal/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "IMC Calculator";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pinedajo.Calculadora-de-Masa-Corporal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F17DA5D229E1EF4F001AEFD3 /* Build configuration list for PBXProject "Calculadora de Masa Corporal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17DA5FF29E1EF51001AEFD3 /* Debug */,
+				F17DA60029E1EF51001AEFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17DA60129E1EF51001AEFD3 /* Build configuration list for PBXNativeTarget "Calculadora de Masa Corporal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17DA60229E1EF51001AEFD3 /* Debug */,
+				F17DA60329E1EF51001AEFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F17DA5CF29E1EF4F001AEFD3 /* Project object */;
+}
